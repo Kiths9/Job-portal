@@ -1,0 +1,129 @@
+<html>
+    <title>
+    </title>
+        <head>
+            <style>
+                header{
+                    border: 5px solid black;
+                    text-align: center;
+                background-color: lightgrey;
+                font-size: 22px;
+                font-weight: bold;
+                color:brown;
+                }
+               
+               
+               footer{
+                padding-left: 5px;
+               }
+               legend{
+                text-align: center;
+                color: brown;
+                font-family: cursive;
+               }
+               fieldset{
+                border: 5px solid black;
+                margin-top: 20px;
+              padding-left: 3px;
+              padding-bottom: 10px;
+              background-color: lightgrey;
+               }
+           
+            </style>
+           
+        </head>
+   
+    <body>
+      
+        <header> JOB PORTAL </header>
+     
+
+    <fieldset>
+    <legend>Personal details </legend>
+
+    <p > Name:<span style="padding: 2%;"></span>
+    <input type="text" name="name" id="" placeholder="Full Name"></p>
+    <p> Email:<span style="padding: 2%;"></span>
+    <input type="text" name="Email" id="" placeholder="Email-Id"></p>
+    <p> Mobile:<span style="padding: 1.7%;"></span>
+    <input type="number" name="mobile" placeholder="Number"></p>
+    <p> DOB:<span style="padding: 2.2%;"></span>
+    <input type="Date" name="DOB"></p>
+    <p> Gender:<span style="padding: 1.7%;"></span>
+    <input type="radio" name="Male">Male
+    <input type="radio" name="Female">Female
+    <input type="radio" name="Others">Others</p>
+    <p> Address:<span style="padding: 1.7%;"></span>
+        <textarea id="Address" rows="4" cols="25" placeholder=" Address"></textarea>
+    </p>
+    
+</fieldset>
+
+<fieldset>
+    <legend>Education </legend>
+
+
+
+        <p>Qualification:<span style="padding: 2%;"></span>
+        <select name="education" id="edu">
+            <option value="BE">BE</option>
+            <option value="Dip">Dip</option>
+            <option value="MTech">MTech</option>
+          </select></p>
+          <p>Stream:<span style="padding: 3.5%;"></span>
+          <select name="stream" id="stream">
+            <option value="Cs">Computer science</option>
+            <option value="IT">Information science</option>
+            <option value="Ec">Electrical and communication </option>
+          </select></p>
+
+
+          <p>Year of passing <span style="padding: 1.5%;"></span>
+          <select name="YOP" id="YOP">
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019 </option></select></p>
+
+          <p >Percentage<span style="padding: 2.6%;"></span>
+          <input type="text" size="5" placeholder="%"> </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Skill Set </legend>
+        
+           
+              
+              <span style="margin-left: 25%;">
+              <input type="checkbox" name="Java"> Java  
+              <input type="checkbox" name="Java"> C
+              <input type="checkbox" name="Java"> C++
+              <input type="checkbox" name="Java"> Python
+              <input type="checkbox" name="Java"> Java Full Stack Developer
+              <input type="checkbox" name="Java"> Python Full Stack Developer
+                </span>
+            </fieldset>
+
+          
+              <fieldset >
+            <legend>Work location preference </legend><br>
+            <span style="margin-left: 41%;"></span>
+            <input type="radio" name="Bangalore">Bangalore
+            <input type="radio" name="Chennai">Chennai
+            <input type="radio" name="Pune">Pune
+            </span>
+        </fieldset>
+
+    </div>
+
+    <footer>
+    <p>
+        Upload Resume:<input type="file"><br><br>
+        <input type="checkbox"> I agree with all terms and conditions 
+        
+        
+    </p>
+    <input type="reset">
+    <input type="submit" id="submit">
+    </footer>
+    </body>
+</html>
